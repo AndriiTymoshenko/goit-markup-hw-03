@@ -1,0 +1,227 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --header-bg-color: #ececec;
+  --primary-bg-color: #f5f5f5;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bcg-color);
+  font-family: 'Roboto', 'Raleway', 'Arial', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* primary text color #757575 */
+/* secondary text color #212121*/
+/* accent color #2196f3 */
+/* primary background color #f5f5f5 */
+/* secondary background color #EEEEEE */
+/* header background color #ececec */
+/* footer background color #2F303A */
+/* our team bcg color #F5F4FA */
+
+/* Header customisation */
+
+.logo {
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.logo-part-one {
+  color: var(--accent-color);
+}
+
+.logo-part-two {
+  color: var(--primary-black-color);
+}
+.logo-part-three {
+  color: var(--primary-white-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts nav */
+
+.contacts-nav .link {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* main customisation */
+/* hero */
+
+.hero {
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--footer-bg-color);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/* sections */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.features .features-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+/* our team section */
+
+.section-bg {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-nav .link {
+  font-family: inherit;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color: inherit;
+  background-color: var(--primary-white-color);
+}
+
+.member-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+/* footer customisation */
+
+.page-footer {
+  background-color: var(--footer-bg-color);
+}
+
+.page-footer .footer-address {
+  line-height: 1.71;
+  /* color: var(--footer-text-color); */
+}
+
+.page-footer .footer-location {
+  color: var(--primary-white-color);
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--accent-color);
+}
+
+.footer-address .link {
+  font-family: inherit;
+  text-decoration: none;
+  color: var(--footer-text-color);
+}
+
+/* Портфоліо page customisation */
+
+/* Button */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.63;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  border-color: transparent;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+
+/* Our projects */
+
+.projects {
+  background-color: var(--primary-white-color);
+}
+
+.project-nav .link {
+  font-family: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.88;
+  color: inherit;
+  background-color: ;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
