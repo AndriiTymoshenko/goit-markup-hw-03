@@ -9,6 +9,7 @@
   --primary-white-color: #ffffff;
   --primary-black-color: #000000;
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --portfolio-bg-color: #eeeeee;
 }
 
 html {
@@ -61,6 +62,10 @@ ul {
 /* our team bcg color #F5F4FA */
 
 /* Header customisation */
+
+.headerbg {
+  background-color: var (var(--header-bg-color));
+}
 
 .main-nav {
   display: flex;
@@ -335,7 +340,25 @@ ul {
 /* Портфоліо page customisation */
 
 /* Button */
+
+.filter {
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.btn .item + .item {
+  margin-left: 8px;
+}
+
 .filter-button {
+  border-radius: 4px;
+  border: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -359,6 +382,28 @@ ul {
   background-color: var(--primary-white-color);
 }
 
+.project-text {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.project-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-nav .item + .item,
+.project-nav .item-two + .item-two,
+.project-nav .item-three + .item-three {
+  margin-left: 30px;
+}
+
+.project-nav .item-two,
+.project-nav .item-three {
+  margin-top: 20px;
+}
+
 .project-nav .link {
   font-family: inherit;
   text-decoration: none;
@@ -369,6 +414,9 @@ ul {
 }
 
 .project-title {
+  padding-left: 24px;
+  padding-right: 24px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
