@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студія</title>
+    <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +19,10 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container headerbg">
-      <div class="main-nav">
+    <header>
+      <div class="container main-nav">
         <nav class="main-nav">
-          <a class="logo" href="#" lang="en"
+          <a class="logo-header" href="#" lang="en"
             ><span class="logo-part-one">Web</span><span class="logo-part-two">Studio</span></a
           >
           <ul class="site-nav list">
@@ -41,81 +41,114 @@
     </header>
     <!-- Main -->
     <main>
-      <div class="container section">
-        <div class="filter">
-          <ul class="btn list">
-            <li class="item">
-              <button type="button" class="filter-btn">Все</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter-btn">Веб-сайти</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter-btn">Додатки</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter-btn">Дизайн</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter-btn">Маркетинг</button>
-            </li>
-          </ul>
-        </div>
-        <section>
-          <ul class="flex-container list">
-            <li class="flex-elements">
-              <img src="./images/project-1.jpg" alt="зображення веб-сайту" width="370" />
-              <h2 class="project-title">Технокряк</h2>
-              <p class="project-text">Веб-сайт</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-2.jpg" alt="зображення баскетболістів" width="370" />
-              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
-              <p class="project-text">Дизайн</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-3.jpg" alt="додаток ресторан" width="370" />
-              <h2 class="project-title">Ресторан Seafood</h2>
-              <p class="project-text">Додаток</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-4.jpg" alt="навушники" width="370" />
-              <h2 class="project-title">Проєкт Prime</h2>
-              <p class="project-text">Маркетинг</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-5.jpg" alt="зображення коробок" width="370" />
-              <h2 class="project-title">Проєкт Boxes</h2>
-              <p class="project-text">Додаток</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-6.jpg" alt="зображення макбука" width="370" />
-              <h2 class="project-title">Inspiration has no Borders</h2>
-              <p class="project-text">Веб-сайт</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-7.jpg" alt="зображення книги" width="370" />
-              <h2 class="project-title">Видання Limited Edition</h2>
-              <p class="project-text">Дизайн</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-8.jpg" alt="зображення брелка" width="370" />
-              <h2 class="project-title">Проект LAB</h2>
-              <p class="project-text">Маркетинг</p>
-            </li>
-            <li class="flex-elements">
-              <img src="./images/project-9.jpg" alt="людина друкує" width="370" />
-              <h2 class="project-title">Growing Business</h2>
-              <p class="project-text">Додаток</p>
-            </li>
-          </ul>
-        </section>
-      </div>
+      <section class="section">
+        <div class="container">
+            <ul class="btn list">
+              <li class="item">
+                <button type="button" class="item-btn">Все</button>
+              </li>
+              <li class="item">
+                <button type="button" class="item-btn">Веб-сайти</button>
+              </li>
+              <li class="item">
+                <button type="button" class="item-btn">Додатки</button>
+              </li>
+              <li class="item">
+                <button type="button" class="item-btn">Дизайн</button>
+              </li>
+              <li class="item">
+                <button type="button" class="item-btn">Маркетинг</button>
+              </li>
+            </ul>
+            <ul class="flex-container list">
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-1.jpg" alt="зображення веб-сайту" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Технокряк</h2>
+                    <p class="project-text">Веб-сайт</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-2.jpg" alt="зображення баскетболістів" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="project-text">Дизайн</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-3.jpg" alt="додаток ресторан" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Ресторан Seafood</h2>
+                    <p class="project-text">Додаток</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-4.jpg" alt="навушники" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Проєкт Prime</h2>
+                    <p class="project-text">Маркетинг</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-5.jpg" alt="зображення коробок" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Проєкт Boxes</h2>
+                    <p class="project-text">Додаток</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-6.jpg" alt="зображення макбука" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Inspiration has no Borders</h2>
+                    <p class="project-text">Веб-сайт</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-7.jpg" alt="зображення книги" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Видання Limited Edition</h2>
+                    <p class="project-text">Дизайн</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-8.jpg" alt="зображення брелка" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Проект LAB</h2>
+                    <p class="project-text">Маркетинг</p>
+                  </div>
+                </div>
+              </li>
+              <li class="flex-elements">
+                <div class="project-card">
+                  <img src="./images/project-9.jpg" alt="зображення брелка" width="370" />
+                  <div class="project-content">
+                    <h2 class="project-title">Growing business</h2>
+                    <p class="project-text">Додаток</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+      </section>  
     </main>
     <!-- Footer -->
     <footer class="page-footer">
       <div class="container">
-        <a class="logo" href="#" lang="en"
+        <a class="logo-footer" href="#" lang="en"
           ><span class="logo-part-one">Web</span><span class="logo-part-three">Studio</span></a
         >
         <address>

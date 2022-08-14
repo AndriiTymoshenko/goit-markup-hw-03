@@ -19,10 +19,10 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container headerbg">
-      <div class="main-nav">
+    <header>
+      <div class="container main-nav">
         <nav class="main-nav">
-          <a class="logo" href="#" lang="en"
+          <a class="logo-header" href="#" lang="en"
             ><span class="logo-part-one">Web</span><span class="logo-part-two">Studio</span></a
           >
           <ul class="site-nav list">
@@ -43,14 +43,15 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <div class="hero-container">
+        <div class="container hero-container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="button">Замовити послугу</button>
         </div>
       </section>
       <!-- Features Our Projects and Team -->
-      <div class="container">
-        <section class="section">
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title visually-hidden">Our Features</h2>
           <ul class="features list">
             <li>
               <h3 class="features-title">Увага до деталей</h3>
@@ -71,86 +72,96 @@
               </p>
             </li>
             <li>
-              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="features-title">Сучасні технології</h3>
               <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
-        </section>
-        <!-- Our Projects -->
-        <section class="section-nopadding">
+        </div>
+      </section>
+      <!-- Our Projects -->
+      <section class="section-nopadding">
+        <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="product flex list">
+          <ul class="product list">
             <li class="item">
-              <a href="">
-                <img src="./images/box1.jpg" alt="зображення компютера" width="370" />
-              </a>
+              <div><img src="./images/box1.jpg" alt="зображення компютера" width="370" /></div>
             </li>
             <li class="item">
-              <a href="">
+              <div>
                 <img src="./images/box2.jpg" alt="зображення телефона та компютера" width="370" />
-              </a>
+              </div>
             </li>
             <li class="item">
-              <a href="">
+              <div>
                 <img src="./images/box3.jpg" alt="зображення планшета" width="370" />
-              </a>
+              </div>
             </li>
           </ul>
-        </section>
-        <!-- Our Team -->
-        <section class="section section-bg">
+        </div>
+      </section>
+      <!-- Our Team -->
+      <section class="section section-bg">
+        <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team">
             <li class="team-nav list bg">
-              <a class="link" href="">
+              <div class="member">
                 <img
                   src="./images/team-card-one.jpg"
                   alt="зображення Ігоря Демяненко"
                   width="270"
                 />
-                <h3 class="member-title">Ігор Дем'яненко</h3>
-                <p class="member-text">Product Designer</p>
-              </a>
+                <div class="member-card">
+                  <h3 class="member-title">Ігор Дем'яненко</h3>
+                  <p class="member-text">Product Designer</p>
+                </div>
+              </div>
             </li>
             <li class="team-nav list bg">
-              <a class="link" href="">
+              <div class="member">
                 <img src="./images/team-card-two.jpg" alt="зображення Ольги Рєпіної" width="270" />
-                <h3 class="member-title">Ольга Рєпіна</h3>
-                <p class="member-text">Frontend Developer</p>
-              </a>
+                <div class="member-card">
+                  <h3 class="member-title">Ольга Рєпіна</h3>
+                  <p class="member-text">Frontend Developer</p>
+                </div>
+              </div>
             </li>
-            <li class="team-nav list bg">
-              <a class="link" href="">
+            <li class="team-nav list">
+              <div class="member">
                 <img
                   src="./images/team-card-three.jpg"
                   alt="зображення Миколи Тарасова"
                   width="270"
                 />
-                <h3 class="member-title">Микола Тарасов</h3>
-                <p class="member-text">Marketing</p>
-              </a>
+                <div class="member-card">
+                  <h3 class="member-title">Микола Тарасов</h3>
+                  <p class="member-text">Marketing</p>
+                </div>
+              </div>
             </li>
             <li class="team-nav list bg">
-              <a class="link" href="">
+              <div class="member">
                 <img
                   src="./images/team-card-four.jpg"
                   alt="зображення Михайла Єрмакова"
                   width="270"
                 />
-                <h3 class="member-title">Михайло Єрмаков</h3>
-                <p class="member-text">UI Designer</p>
-              </a>
+                <div class="member-card">
+                  <h3 class="member-title">Михайло Єрмаков</h3>
+                  <p class="member-text">UI Designer</p>
+                </div>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
     <footer class="page-footer">
       <div class="container">
-        <a class="logo" href="#" lang="en"
+        <a class="logo-footer" href="#" lang="en"
           ><span class="logo-part-one">Web</span><span class="logo-part-three">Studio</span></a
         >
         <address>
