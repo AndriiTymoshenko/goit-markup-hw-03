@@ -322,7 +322,6 @@ header {
   font-size: 16px;
   line-height: 1.19;
   color: var(--title-text-color);
-  margin-top: var(--section-gap);
 }
 
 .member-text {
@@ -351,7 +350,9 @@ header {
   margin-top: 9px;
 }
 
-address-nav {
+.address-nav {
+  display: flex;
+  flex-direction: column;
   gap: 9px;
 }
 
@@ -438,4 +439,5 @@ address-nav {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
